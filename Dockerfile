@@ -2,7 +2,7 @@ FROM node:boron
 
 WORKDIR /opt/stock-tracker
 
-COPY package.json
+COPY package.json .
 
 RUN npm install
 
